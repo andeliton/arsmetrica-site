@@ -1,0 +1,39 @@
+/* --- CSS para Marca D'água (Ars Metrica) --- */
+
+/* Cria uma camada no fundo do corpo do site */
+body::before {
+    content: "";
+    position: fixed; /* Fica fixo na tela, não rola com o texto */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Certifique-se que o nome do arquivo da logo está correto aqui */
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Define o tamanho da marca d'água (ajuste se achar grande/pequena) */
+    background-size: 50%;
+    /* Garante que fica atrás do texto */
+    z-index: -1;
+    pointer-events: none; /* Permite clicar através dela */
+}
+
+/* --- Ajustes para o Modo CLARO (Lux/Ars) --- */
+html.quarto-light body::before {
+    /* Opacidade bem baixa (10%) para ser sutil */
+    opacity: 0.1;
+}
+
+/* --- Ajustes para o Modo ESCURO (Cyborg/Metrica) --- */
+html.quarto-dark body::before {
+    /* Um pouco mais de opacidade no escuro (15%) */
+    opacity: 0.15;
+    /* O TRUQUE: Inverte as cores da logo (preto vira branco) */
+    filter: invert(1) grayscale(1);
+}
+
+/* Remove fundo dos containers principais para a marca d'água aparecer */
+.quarto-container, body {
+    background-color: transparent !important;
+}
