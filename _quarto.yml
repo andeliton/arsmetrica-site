@@ -6,16 +6,17 @@ website:
   navbar:
     logo: logo.png
     right:
+      - icon: github
+        href: https://github.com/andeliton
+      - icon: linkedin
+        href: https://linkedin.com/andeliton-soares-95a464337
+    left: 
       - text: "Home"
         href: index.qmd
       - text: "Sobre"
         href: about.qmd
       - text: "Análises"  # <--- E ISSO
         href: analise.qmd   # <--- ADICIONE ISSO
-      - icon: github
-        href: https://github.com/andeliton
-      - icon: linkedin
-        href: https://linkedin.com/andeliton-soares-95a464337
    
 
 format:

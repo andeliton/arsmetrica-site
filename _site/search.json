@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ars Metrica",
+    "section": "",
+    "text": "O mundo contemporâneo não sofre de falta de informação, mas de excesso de ruído. Onde o olhar comum enxerga apenas o caos de dados dispersos, a Ars Metrica busca a estrutura subjacente que governa os fenômenos complexos.\nEntendemos que dilemas inéditos não aceitam respostas padronizadas; eles exigem imaginação. Por isso, reivindicamos a análise de dados como um ato fundamentalmente criativo. É preciso arte para formular a pergunta correta diante do vazio e rigor para construir a resposta sobre terreno firme.\nNossa abordagem funde a precisão estatística com a intuição analítica, desenhando soluções originais para problemas que a força bruta computacional, sozinha, não consegue resolver. Na fronteira entre a ciência e o ofício, trabalhamos para distinguir o sinal do ruído e oferecer, diante da incerteza, a clareza possível.\nPor trás dos algoritmos, há uma investigação em curso. A Ars Metrica reflete a jornada intelectual de um pesquisador dedicado a Ciência Política. Periodicamente, publicaremos estudos sobre as engrenagens institucionais do Brasil, não como meras opiniões, mas como exercícios de lucidez. É o nosso convite para que você veja a política não como um espetáculo de ruído, mas como um sistema complexo passível de ser compreendido.\n\n\nEm breve, aqui estarão artigos e postagem."
+  },
+  {
+    "objectID": "index.html#análises-recentes-versão-git",
+    "href": "index.html#análises-recentes-versão-git",
+    "title": "Ars Metrica",
+    "section": "",
+    "text": "Em breve, aqui estarão artigos e postagem."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre",
+    "section": "",
+    "text": "Bem-vindo ao meu laboratório digital.\nSou doutorando em Ciência Política e cientista de dados. O projeto Ars Metrica nasce da convicção de que o rigor analítico (Metrica) e a criatividade (Ars) não são opostos, mas complementares.\nAqui, utilizo métodos computacionais para investigar fenômenos políticos, sem perder de vista a profundidade teórica dos clássicos."
+  },
+  {
+    "objectID": "about.html#ars-metrica",
+    "href": "about.html#ars-metrica",
+    "title": "Sobre",
+    "section": "",
+    "text": "Bem-vindo ao meu laboratório digital.\nSou doutorando em Ciência Política e cientista de dados. O projeto Ars Metrica nasce da convicção de que o rigor analítico (Metrica) e a criatividade (Ars) não são opostos, mas complementares.\nAqui, utilizo métodos computacionais para investigar fenômenos políticos, sem perder de vista a profundidade teórica dos clássicos."
+  },
+  {
+    "objectID": "about.html#interesses-de-pesquisa",
+    "href": "about.html#interesses-de-pesquisa",
+    "title": "Sobre",
+    "section": "Interesses de Pesquisa",
+    "text": "Interesses de Pesquisa\n\nCiência Política\nAnálise de Dados Web Scraping"
+  },
+  {
+    "objectID": "about.html#formação",
+    "href": "about.html#formação",
+    "title": "Sobre",
+    "section": "Formação",
+    "text": "Formação\nDoutorado em Ciência Política | Universidade… | Em andamento Mestrado em… | Universidade… | Ano\netc."
+  },
+  {
+    "objectID": "analise.html",
+    "href": "analise.html",
+    "title": "Exemplo de Análise: Ars Metrica",
+    "section": "",
+    "text": "Este é um exemplo de como o Ars Metrica integra narrativa e código. Abaixo, não temos apenas uma imagem estática, mas o resultado direto de um algoritmo executado em tempo real.\nVamos analisar a relação entre variáveis usando o famoso dataset mtcars, mas com uma estética limpa."
+  },
+  {
+    "objectID": "analise.html#introdução",
+    "href": "analise.html#introdução",
+    "title": "Exemplo de Análise: Ars Metrica",
+    "section": "",
+    "text": "Este é um exemplo de como o Ars Metrica integra narrativa e código. Abaixo, não temos apenas uma imagem estática, mas o resultado direto de um algoritmo executado em tempo real.\nVamos analisar a relação entre variáveis usando o famoso dataset mtcars, mas com uma estética limpa."
+  },
+  {
+    "objectID": "analise.html#o-código-em-r",
+    "href": "analise.html#o-código-em-r",
+    "title": "Exemplo de Análise: Ars Metrica",
+    "section": "O Código em R",
+    "text": "O Código em R\nO código abaixo carrega os dados e gera a visualização. Note que o leitor pode clicar em “Code” para ver como foi feito, garantindo reprodutibilidade."
+  }
+]

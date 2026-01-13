@@ -15,14 +15,13 @@ Vamos analisar a relação entre variáveis usando o famoso dataset `mtcars`, ma
 
 O código abaixo carrega os dados e gera a visualização. Note que o leitor pode clicar em "Code" para ver como foi feito, garantindo reprodutibilidade.
 
-\`\`\`{r} #\| label: grafico-demo #\| warning: false #\| message: false
-
-library(tidyverse) library(ggthemes)
-
 # Criando um gráfico elegante
 
 ```{r}
 
+#| label: grafico-demo
+#| warning: false
+#| message: false
 library(tidyverse)
 library(ggthemes)
 
@@ -40,7 +39,4 @@ ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +
   ) +
   theme_minimal() +
   theme(legend.position = "top")
-```
-
-```{}
 ```
