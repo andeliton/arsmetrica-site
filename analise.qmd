@@ -1,0 +1,24 @@
+---
+title: "Exemplo de Análise: Ars Metrica"
+format:
+  html:
+    code-fold: true
+---
+
+## Introdução
+
+Este é um exemplo de como o **Ars Metrica** integra narrativa e código. Abaixo, não temos apenas uma imagem estática, mas o resultado direto de um algoritmo executado em tempo real.
+
+Vamos analisar a relação entre variáveis usando o famoso dataset `mtcars`, mas com uma estética limpa.
+
+## O Código em R
+
+O código abaixo carrega os dados e gera a visualização. Note que o leitor pode clicar em "Code" para ver como foi feito, garantindo reprodutibilidade.
+
+\`\`\`{r} #\| label: grafico-demo #\| warning: false #\| message: false
+
+library(tidyverse) library(ggthemes)
+
+# Criando um gráfico elegante
+
+ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) + geom_point(size = 3, alpha = 0.8) + geom_smooth(method = "lm", se = FALSE, linetype = "dashed") + scale_color_viridis_d(name = "Cilindros") + labs( title = "Eficiência vs. Peso", subtitle = "Análise demonstrativa do Ars Metrica", x = "Peso (1000 lbs)", y = "Milhas por Galão (MPG)", caption = "Fonte: Dataset mtcars (R Core Team)" ) + theme_minimal() + theme(legend.position = "top")
