@@ -5,7 +5,7 @@ format:
     code-fold: true
 ---
 
-## Introdução
+## Introdução 
 
 Este é um exemplo de como o **Ars Metrica** integra narrativa e código. Abaixo, não temos apenas uma imagem estática, mas o resultado direto de um algoritmo executado em tempo real.
 

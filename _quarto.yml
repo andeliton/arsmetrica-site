@@ -13,9 +13,9 @@ website:
       - text: "Análises"  # <--- E ISSO
         href: analise.qmd   # <--- ADICIONE ISSO
       - icon: github
-        href: https://github.com/
+        href: https://github.com/andeliton
       - icon: linkedin
-        href: https://linkedin.com/
+        href: https://linkedin.com/andeliton-soares-95a464337
    
 
 format:
