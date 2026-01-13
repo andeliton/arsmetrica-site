@@ -10,12 +10,13 @@ website:
         href: index.qmd
       - text: "Sobre"
         href: about.qmd
+      - text: "Análises"  # <--- E ISSO
+        href: analise.qmd   # <--- ADICIONE ISSO
       - icon: github
         href: https://github.com/
       - icon: linkedin
         href: https://linkedin.com/
-      - href: analise.qmd   # <--- ADICIONE ISSO
-        text: Análises      # <--- E ISSO
+   
 
 format:
   html:
