@@ -22,7 +22,7 @@ website:
 format:
   html:
     theme:
-      light: lux      # Tema elegante (serifado)
-      dark: cyborg    # Tema high-tech (fundo preto)
-    css: styles.css
+    light: journal
+      dark: slate
+      css: styles.css
     toc: true
