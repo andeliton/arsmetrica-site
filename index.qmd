@@ -11,7 +11,7 @@ Entendemos que dilemas inéditos não aceitam respostas padronizadas; eles exige
 
 Nossa abordagem funde a precisão estatística com a intuição analítica, desenhando soluções originais para problemas que a força bruta computacional, sozinha, não consegue resolver. Na fronteira entre a ciência e o ofício, trabalhamos para distinguir o sinal do ruído e oferecer, diante da incerteza, a clareza possível.
 
-Por trás dos algoritmos, há uma investigação em curso. A **Ars Metrica** reflete a jornada intelectual de um pesquisador dedicado à Ciência Política. Periodicamente, publicaremos estudos sobre as engrenagens institucionais do Brasil, não como meras opiniões, mas como exercícios de lucidez. É o nosso convite para que você veja a política não como um espetáculo de ruído, mas como um sistema complexo passível de ser compreendido."
+Por trás dos algoritmos, há uma investigação em curso. A **Ars Metrica** reflete a jornada intelectual de um pesquisador dedicado a Ciência Política. Periodicamente, publicaremos estudos sobre as engrenagens institucionais do Brasil, não como meras opiniões, mas como exercícios de lucidez. É o nosso convite para que você veja a política não como um espetáculo de ruído, mas como um sistema complexo passível de ser compreendido.
 
 ## Análises Recentes (versão git)
 
