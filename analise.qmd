@@ -21,4 +21,26 @@ library(tidyverse) library(ggthemes)
 
 # Criando um gráfico elegante
 
-ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) + geom_point(size = 3, alpha = 0.8) + geom_smooth(method = "lm", se = FALSE, linetype = "dashed") + scale_color_viridis_d(name = "Cilindros") + labs( title = "Eficiência vs. Peso", subtitle = "Análise demonstrativa do Ars Metrica", x = "Peso (1000 lbs)", y = "Milhas por Galão (MPG)", caption = "Fonte: Dataset mtcars (R Core Team)" ) + theme_minimal() + theme(legend.position = "top")
+```{r}
+
+library(tidyverse)
+library(ggthemes)
+
+# Criando um gráfico elegante
+ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +
+  geom_point(size = 3, alpha = 0.8) +
+  geom_smooth(method = "lm", se = FALSE, linetype = "dashed") +
+  scale_color_viridis_d(name = "Cilindros") +
+  labs(
+    title = "Eficiência vs. Peso",
+    subtitle = "Análise demonstrativa do Ars Metrica",
+    x = "Peso (1000 lbs)",
+    y = "Milhas por Galão (MPG)",
+    caption = "Fonte: Dataset mtcars (R Core Team)"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "top")
+```
+
+```{}
+```
