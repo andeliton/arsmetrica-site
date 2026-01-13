@@ -2,7 +2,7 @@
 title: "Sobre"
 about:
   template: trestles
-  image: profile.jpg
+  image: profile.jpeg
   image-shape: round
   links:
     - icon: linkedin
