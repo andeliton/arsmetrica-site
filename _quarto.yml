@@ -14,13 +14,8 @@ website:
         href: https://github.com/
       - icon: linkedin
         href: https://linkedin.com/
-    left:
-        - href: index.qmd
-          text: Home
-        - href: about.qmd
-          text: Sobre
-        - href: analise.qmd   # <--- ADICIONE ISSO
-          text: Análises      # <--- E ISSO
+      - href: analise.qmd   # <--- ADICIONE ISSO
+        text: Análises      # <--- E ISSO
 
 format:
   html:
