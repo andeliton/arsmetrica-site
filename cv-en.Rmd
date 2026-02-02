@@ -1,0 +1,116 @@
+---
+format: 
+  pdf:
+    pdf-engine: xelatex
+    documentclass: scrartcl
+    papersize: a4
+    geometry:
+      - top=15mm
+      - left=15mm
+      - right=15mm
+      - bottom=15mm
+    fontsize: 10pt
+    linestretch: 1.15
+    colorlinks: true
+    linkcolor: blue
+    urlcolor: blue
+---
+
+# **Andéliton Soares**
+
+**PhD Candidate in Political Science (UnB) | Data Scientist | Specialist in Public Controllership and Public Economics & Finance**
+
+📍 Brasília, Brazil | 📧 andeliton.soares@arsmetrica.com.br
+🔗 [Linkedin](https://linkedin.com/in/andeliton-soares-95a464337) | 🔗 [GitHub](https://github.com/andeliton) | 🌐 [www.arsmetrica.com.br](https://www.arsmetrica.com.br)
+
+---
+
+### **Professional Summary**
+
+Researcher and Data Scientist operating at the intersection of political institutions and data engineering. My expertise combines the rigor of Political Science (Institutions, Budgeting, Legislative Studies) with advanced computational tools (R, Python, SQL) for government auditing and strategic analysis. Founder of *Ars Metrica Lab*.
+
+---
+
+### **Education**
+
+**PhD in Political Science** \hfill *In Progress*
+University of Brasília (UnB)
+
+**MA in Political Science** \hfill *2020 – 2022*
+University of Brasília (UnB)
+
+**Specialization in Public Controllership** \hfill *2023 – 2024*
+Gran Faculdade
+
+**Specialization in Economics & Finance** \hfill *2023 – 2024*
+Gran Faculdade
+
+**BA in Political Science** \hfill *2016 – 2019*
+University of Brasília (UnB)
+
+---
+
+### **Skills & Tools**
+
+**Data Science & Statistics**
+
+* **R & RStudio (Expert):** Dashboard development (Shiny), Tidyverse, ggplot2.
+
+* **Applied Statistics:** Predictive modeling, Regression (OLS, Logit), Causal Inference.
+
+* **Python (Intermediate):** Web Scraping (Selenium, BeautifulSoup), NLP, Automation.
+
+* **SQL:** Complex queries in large relational databases.
+
+**Domain & Legal Expertise**
+
+* **Legislative & Budgetary Process:** SIOP/Siafi cycles, Fiscal Responsibility Law, Internal Rules.
+
+* **Elections & TSE Data:** Massive data mining from the Superior Electoral Court repository, campaign finance, and voting geography.
+
+* **Government Audit:** Administrative Law applied to Compliance and external control.
+
+**Languages**
+
+* **Portuguese:** Native
+
+* **English:** Fluent
+
+* **French:** Superior Proficiency (DALF C2)
+
+* **Spanish:** Superior Proficiency (DELE C2)
+
+* **German:** Intermediate
+
+* **Italian:** Intermediate
+
+---
+
+### **International Experience**
+
+**CoIntelBr (WZB Berlin & Oxford University)** \hfill *2023 – 2024*
+*Data Assistant*. Investigation on collective intelligence and civil society trust in Brazil. Responsible for survey data processing and data visualization.
+
+**How Elites Shape Unequal Democracies (Geneva Graduate Institute)** \hfill *2020 – 2023*
+*Research Assistant*. Project on perceptions of inequality. Conducted surveys with economic and bureaucratic elites and produced qualitative reports.
+
+**Multi-Office Incumbency Advantage** \hfill *2022 – 2024*
+*Research Assistant*. Massive data collection and processing of historical data on political career decisions in Brazil.
+
+---
+
+### **Selected Publications**
+
+**Presidencialismo de coalizão: conceito e aplicação**
+*Revista Brasileira de Ciência Política (2021)*. Co-authored with Lucas Couto and Bernardo Livramento.
+
+**Todos pela popularidade: Como o apoio do Presidente afeta parlamentares**
+*E-legis v.14, Special Edition (2021)*. Co-authored with Lucio Rennó.
+
+---
+
+### **Working Papers**
+
+* **Public Money as an Institutional Shield:** Campaign Finance Reform and the Electoral Survival of Scandal-Tainted Incumbents. *(Under Review)*
+* **Filling Voids, Mitigating Uncertainty:** Decision-making centralization and the hypertrophy of the Speaker of the House.
+* **Piercing the Bubble?** Political identity, motivated reasoning, and framing effects on COVID-19 vaccination.

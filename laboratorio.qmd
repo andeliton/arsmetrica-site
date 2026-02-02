@@ -1,0 +1,20 @@
+---
+title: "Laboratório de Dados"
+subtitle: "Ferramentas de monitoramento, dashboards e experimentos computacionais."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [date, title, reading-time, description, categories, image]
+page-layout: full
+title-block-banner: false
+---
+
+Bem-vindo à seção de análises aplicadas. Aqui publico os resultados práticos da metodologia **Ars Metrica**: a fusão entre teoria política e ciência de dados.
+
+Clique nos títulos abaixo para acessar os detalhes técnicos e os links para as aplicações interativas.
+
+---

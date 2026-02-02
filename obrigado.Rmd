@@ -1,0 +1,24 @@
+---
+title: "Mensagem Enviada!"
+format: html
+---
+
+## Obrigado pelo contato!
+
+Recebi sua mensagem com sucesso. Valorizo muito o feedback e as sugestões dos leitores do **Ars Metrica**.
+
+### O que acontece agora?
+* Vou analisar sua mensagem e, se necessário, responderei no e-mail informado.
+* Se for um reporte de erro nos dados ou bugs no site, darei prioridade à correção.
+* Geralmente respondo em até 48 horas.
+
+---
+
+### Enquanto isso, que tal continuar lendo?
+
+Se você gosta de análise de dados e política, recomendo conferir estas seções:
+
+* [**Sismógrafo Político**](/posts/sismografo-politico/): Veja como o Congresso e o Google interagem.
+* [**Sobre o Ars Metrica**](/about.qmd): Entenda a metodologia por trás do projeto.
+
+[< Voltar para a Página Inicial](index.qmd){.btn .btn-outline-primary .btn-sm role="button"}

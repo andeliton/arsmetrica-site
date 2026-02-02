@@ -24,12 +24,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./favicon_light.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -37,14 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cc1d64809b8ed731f92ea1275fe9f05b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-3c87bd97f2d3ed8302ed67633272be33.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-cc1d64809b8ed731f92ea1275fe9f05b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-77a34b1bf8503938774fca2410705dbf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,174 +68,29 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8WWCC5JC56"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-8WWCC5JC56', { 'anonymize_ip': true});
+</script>
+<meta name="keywords" content="Ciência Política, Data Science, R, Brasil, Orçamento Impositivo, Legislativo, Political Science, Brazilian Politics, Web Scraping, UnB, Andéliton Soares">
+<meta name="author" content="Andéliton Soares">
+<link rel="icon" href="favicon_light.png" type="image/png" sizes="192x192">
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Ars Metrica | Inteligência Política e Dados">
+<meta property="og:description" content="Political Science &amp; Data Science Lab. Decifrando o sinal do ruído na política brasileira.">
+<meta property="og:image" content="https://www.arsmetrica.com.br/profile.jpeg">
+<meta property="og:site_name" content="Ars Metrica">
+<meta property="og:locale" content="pt_BR">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -247,8 +98,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./logo.png" alt="" class="navbar-logo light-content">
-    <img src="./logo.png" alt="" class="navbar-logo dark-content">
+    <img src="./favicon_light.png" alt="" class="navbar-logo light-content">
+    <img src="./favicon_light.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Ars Metrica</span>
@@ -259,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
@@ -269,23 +120,28 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Sobre</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./analise.html"> 
-<span class="menu-text">Análises</span></a>
+    <a class="nav-link" href="./laboratorio.html"> 
+<span class="menu-text">Laboratório</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contato.html"> 
+<span class="menu-text">Contato</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/andeliton"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/andeliton-soares-95a464337"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/andeliton-soares-95a464337/"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -294,72 +150,104 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#bem-vindo" id="toc-bem-vindo" class="nav-link active" data-scroll-target="#bem-vindo">Bem-vindo</a>
-  <ul class="collapse">
-  <li><a href="#análises-recentes-versão-git" id="toc-análises-recentes-versão-git" class="nav-link" data-scroll-target="#análises-recentes-versão-git">Análises Recentes (versão git)</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Ars Metrica</h1>
-<p class="subtitle lead">Onde a tradição humanista encontra a ciência de dados</p>
+
+
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Português 🇧🇷</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">English 🇺🇸</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="header-container">
+<div class="custom-title">
+Ars Metrica
+</div>
+<img src="favicon_light.png" class="brand-logo" width="110" alt="Logo Ars Metrica">
+<div class="custom-subtitle">
+Entre o sinal e o ruído
+</div>
+</div>
+<div class="quote-intro">
+<p>“O mundo contemporâneo não sofre de falta de informação, mas de excesso de ruído. Onde o olhar comum enxerga apenas o caos de dados dispersos, a Ars Metrica busca a estrutura subjacente que governa os fenômenos complexos.”</p>
+</div>
+<section id="a-arte-da-medida" class="level3">
+<h3 class="anchored" data-anchor-id="a-arte-da-medida">A Arte da Medida</h3>
+<p>O nome deste espaço não é acidental. Do latim, <strong><em>Ars</em></strong> evoca o ofício, a técnica e a intuição humana necessária para interpretar o mundo. <strong><em>Metrica</em></strong> traz a exatidão, o padrão e a disciplina dos números.</p>
+<p>A <strong>Ars Metrica</strong> nasce dessa fusão. Acreditamos que a inteligência analítica moderna não deve escolher entre a intuição humanista e a ciência de dados, mas sim integrá-las para decifrar a realidade.</p>
+</section>
+<section id="rigor-e-imaginação" class="level3">
+<h3 class="anchored" data-anchor-id="rigor-e-imaginação">Rigor e Imaginação</h3>
+<p>Entendemos que dilemas inéditos não aceitam respostas padronizadas; eles exigem imaginação. Por isso, reivindicamos a análise de dados como um ato fundamentalmente criativo. É preciso arte para navegar o vazio e formular a pergunta correta, e rigor para construir a resposta sobre terreno firme.</p>
+<p>Nossa abordagem une a estatística à teoria institucional, desenhando soluções originais para problemas que a força bruta computacional, sozinha, não consegue resolver. Trabalhamos na fronteira, distinguindo o sinal do ruído para oferecer, diante da incerteza, a clareza possível.</p>
+</section>
+<section id="o-investigador" class="level3">
+<h3 class="anchored" data-anchor-id="o-investigador">O Investigador</h3>
+<p>Por trás dos algoritmos, há uma investigação em curso. Este espaço reflete a jornada intelectual de um pesquisador dedicado a compreender as engrenagens institucionais do Brasil. Periodicamente, publicaremos estudos sobre o Executivo, o Legislativo e as Finanças Públicas, não como meras opiniões, mas como exercícios de lucidez.</p>
+<div class="final-section">
+<p>
+Este é o nosso convite para que você veja a política não como um espetáculo de ruído, mas como um sistema complexo que muitas vezes emite sinais compreensíveis.
+</p>
+<h3 style="text-align: center; margin-top: 30px;" class="anchored">
+Seja bem-vindo à Ars Metrica.
+</h3>
+<div style="font-size: 3em; margin-top: 20px; margin-bottom: 20px;">
+🏛️ 🤖
+</div>
+<p><img src="favicon_light.png" class="brand-logo" width="60" alt="Logo Final"></p>
+</div>
+</section>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="header-container">
+<div class="custom-title">
+Ars Metrica
+</div>
+<img src="favicon_light.png" class="brand-logo" width="110" alt="Logo Ars Metrica">
+<div class="custom-subtitle">
+Between signal and noise
+</div>
+</div>
+<div class="quote-intro">
+<p>“The contemporary world suffers not from a lack of information, but from an excess of noise. Where the common eye sees only the chaos of scattered data, Ars Metrica seeks the underlying structure that governs complex phenomena.”</p>
+</div>
+<section id="the-art-of-measurement" class="level3">
+<h3 class="anchored" data-anchor-id="the-art-of-measurement">The Art of Measurement</h3>
+<p>The name of this space is not accidental. From Latin, <strong><em>Ars</em></strong> evokes the craft, technique, and human intuition necessary to interpret the world. <strong><em>Metrica</em></strong> brings the exactitude, pattern, and discipline of numbers.</p>
+<p><strong>Ars Metrica</strong> is born from this fusion. We believe that modern analytical intelligence should not choose between humanistic intuition and data science, but rather integrate them to decipher reality.</p>
+</section>
+<section id="rigor-and-imagination" class="level3">
+<h3 class="anchored" data-anchor-id="rigor-and-imagination">Rigor and Imagination</h3>
+<p>We understand that unprecedented dilemmas do not accept standardized answers; they require imagination. Therefore, we claim data analysis as a fundamentally creative act. It takes art to navigate the void and formulate the right question, and rigor to build the answer on firm ground.</p>
+<p>Our approach unites statistics with institutional theory, designing original solutions for problems that computational brute force alone cannot solve. We work at the frontier, distinguishing signal from noise to offer, in the face of uncertainty, the clearest possible view.</p>
+</section>
+<section id="the-investigator" class="level3">
+<h3 class="anchored" data-anchor-id="the-investigator">The Investigator</h3>
+<p>Behind the algorithms, there is an ongoing investigation. This space reflects the intellectual journey of a researcher dedicated to understanding the institutional gears of Brazil. Periodically, we will publish studies on the Executive, the Legislative, and Public Finance—not as mere opinions, but as exercises in lucidity.</p>
+<div class="final-section">
+<p>
+This is our invitation for you to see politics not as a spectacle of noise, but as a complex system that often emits comprehensible signals.
+</p>
+<h3 style="text-align: center; margin-top: 30px;" class="anchored">
+Welcome to Ars Metrica.
+</h3>
+<div style="font-size: 3em; margin-top: 20px; margin-bottom: 20px;">
+🏛️ 🤖
+</div>
+<p><img src="favicon_light.png" class="brand-logo" width="60" alt="Logo Final"></p>
+</div>
+</section>
+</div>
+</div>
 </div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="bem-vindo" class="level1">
-<h1>Bem-vindo</h1>
-<p>O mundo contemporâneo não sofre de falta de informação, mas de excesso de ruído. Onde o olhar comum enxerga apenas o caos de dados dispersos, a <strong>Ars Metrica</strong> busca a estrutura subjacente que governa os fenômenos complexos.</p>
-<p>Entendemos que dilemas inéditos não aceitam respostas padronizadas; eles exigem imaginação. Por isso, reivindicamos a análise de dados como um ato fundamentalmente criativo. É preciso arte para formular a pergunta correta diante do vazio e rigor para construir a resposta sobre terreno firme.</p>
-<p>Nossa abordagem funde a precisão estatística com a intuição analítica, desenhando soluções originais para problemas que a força bruta computacional, sozinha, não consegue resolver. Na fronteira entre a ciência e o ofício, trabalhamos para distinguir o sinal do ruído e oferecer, diante da incerteza, a clareza possível.</p>
-<p>Por trás dos algoritmos, há uma investigação em curso. A <strong>Ars Metrica</strong> reflete a jornada intelectual de um pesquisador dedicado a Ciência Política. Periodicamente, publicaremos estudos sobre as engrenagens institucionais do Brasil, não como meras opiniões, mas como exercícios de lucidez. É o nosso convite para que você veja a política não como um espetáculo de ruído, mas como um sistema complexo passível de ser compreendido.</p>
-<section id="análises-recentes-versão-git" class="level2">
-<h2 class="anchored" data-anchor-id="análises-recentes-versão-git">Análises Recentes (versão git)</h2>
-<p><em>Em breve, aqui estarão artigos e postagem.</em></p>
-
-
-</section>
-</section>
-
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -431,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/www\.arsmetrica\.com\.br");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -759,6 +647,19 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2026 Ars Metrica. Desenvolvido com Quarto.</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

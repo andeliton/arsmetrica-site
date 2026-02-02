@@ -1,0 +1,34 @@
+---
+title: "Monitor Legislativo"
+description: "Painel analítico para acompanhamento de fidelidade partidária e padrões de votação na Câmara dos Deputados."
+author: "Andéliton Soares"
+date: "2024-11-01"
+categories: [Legislativo, Shiny, R, Votações]
+image: image.png 
+published: false
+---
+
+## Contexto
+A disciplina partidária é a moeda de troca do presidencialismo de coalizão brasileiro. Contudo, para um analista ou stakeholder, acompanhar o comportamento de 513 deputados em centenas de votações nominais é humanamente impossível sem automação.
+
+## O Desafio Técnico
+O objetivo era criar uma ferramenta que não apenas mostrasse *como* o deputado votou, mas calculasse métricas derivadas em tempo real:
+1.  **Índice de Governismo:** (Votos com o Relator / Total de Votos).
+2.  **Volatilidade:** Mudanças bruscas de posicionamento.
+
+## A Solução (Stack em R)
+O painel foi construído inteiramente em **R Shiny**. A arquitetura envolve:
+
+* **Extração:** Um script agendado (cronjob) consome a API da Câmara dos Deputados a cada 24h.
+* **Processamento:** Limpeza de dados com `dplyr` e `tidyr` para estruturar os votos em formato *long* e *wide*.
+* **Visualização:** Gráficos interativos com `highcharter`.
+
+```r
+# Exemplo simplificado da lógica de cálculo de Governismo
+dados_votacao %>%
+  group_by(id_deputado, partido) %>%
+  summarise(
+    total_votos = n(),
+    votos_com_governo = sum(voto == orientacao_governo),
+    indice_governismo = votos_com_governo / total_votos
+  )

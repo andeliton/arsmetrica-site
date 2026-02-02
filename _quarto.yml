@@ -3,26 +3,55 @@ project:
 
 website:
   title: "Ars Metrica"
+  site-url: "https://www.arsmetrica.com.br"
+  description: "Portfolio de Ciência de Dados e Ciência Política. Análises sobre Legislativo, Orçamento e Instituições Brasileiras por Andéliton Soares (UnB)."
+  favicon: favicon_light.png
+  
+  # --- CONFIGURAÇÃO DO GOOGLE ANALYTICS ---
+  # O seu código de rastreamento oficial
+  google-analytics: "G-8WWCC5JC56"
+
+  # --- RODAPÉ DO SITE ---
+  page-footer:
+    center: "© 2026 Ars Metrica. Desenvolvido com Quarto."
+
+  # --- REDES SOCIAIS (PREVIEW) ---
+  open-graph:
+    title: "Ars Metrica | Inteligência Política e Dados"
+    description: "Political Science & Data Science Lab. Decifrando o sinal do ruído na política brasileira."
+    image: profile.jpeg
+    locale: "pt_BR"
+    site-name: "Ars Metrica"
+
+  # --- BARRA DE NAVEGAÇÃO ---
   navbar:
-    logo: logo.png
-    right:
-      - icon: github
-        href: https://github.com/andeliton
-      - icon: linkedin
-        href: https://linkedin.com/andeliton-soares-95a464337
-    left: 
+    pinned: true
+    logo: favicon_light.png
+    background: white
+    foreground: black
+    left:
       - text: "Home"
         href: index.qmd
       - text: "Sobre"
         href: about.qmd
-      - text: "Análises"  # <--- E ISSO
-        href: analise.qmd   # <--- ADICIONE ISSO
-   
+      - text: "Laboratório"
+        href: laboratorio.qmd
+      - text: "Contato"
+        href: contato.qmd
+    right:
+      - icon: github
+        href: https://github.com/andeliton
+      - icon: linkedin
+        href: https://www.linkedin.com/in/andeliton-soares-95a464337/
 
 format:
   html:
-    theme:
-    light: journal
-      dark: slate
-      css: styles.css
-    toc: true
+    theme: simplex
+    css: styles.css
+    toc: false
+    # --- SEO AVANÇADO E FAVICON ---
+    include-in-header:
+      text: |
+        <meta name="keywords" content="Ciência Política, Data Science, R, Brasil, Orçamento Impositivo, Legislativo, Political Science, Brazilian Politics, Web Scraping, UnB, Andéliton Soares">
+        <meta name="author" content="Andéliton Soares">
+        <link rel="icon" href="favicon_light.png" type="image/png" sizes="192x192">

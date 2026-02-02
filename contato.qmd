@@ -1,0 +1,39 @@
+---
+title: "Contato e Feedback"
+format: html
+---
+
+Encontrou um erro nos dados? Tem uma sugestão de análise? Ou quer apenas trocar uma ideia sobre ciência política?
+Preencha o formulário abaixo. A mensagem chega diretamente na minha caixa de entrada.
+
+```{=html}
+<form name="arsmetrica-contato" method="POST" data-netlify="true" action="/obrigado.html">
+  <input type="hidden" name="form-name" value="arsmetrica-contato" />
+  
+  <p>
+    <label>Nome: <input type="text" name="name" style="width: 100%; padding: 8px; margin-top: 5px;" required /></label>
+  </p>
+  
+  <p>
+    <label>Email: <input type="email" name="email" style="width: 100%; padding: 8px; margin-top: 5px;" required /></label>
+  </p>
+  
+  <p>
+    <label>Assunto:
+      <select name="subject" style="width: 100%; padding: 8px; margin-top: 5px;" required>
+        <option value="" disabled selected>Selecione um assunto...</option>
+        <option value="sugestao">Sugestão</option>
+        <option value="bug">Reportar Bug / Erro</option>
+        <option value="contato">Contato Profissional</option>
+      </select>
+    </label>
+  </p>
+  
+  <p>
+    <label>Mensagem: <textarea name="message" rows="5" style="width: 100%; padding: 8px; margin-top: 5px;" required></textarea></label>
+  </p>
+  
+  <p>
+    <button type="submit" style="background-color: #2c3e50; color: white; padding: 10px 20px; border: none; cursor: pointer;">Enviar Mensagem</button>
+  </p>
+</form>

@@ -1,7 +1,30 @@
-.Rproj.user
+# --- Quarto & Renderização ---
+/.quarto/
+/_site/
+/_freeze/
+/*.html
+/site_libs/
+
+# --- R & RStudio ---
 .Rhistory
 .RData
 .Ruserdata
+.Rproj.user/
+.Rapp.history
+write-up.log
+write-up.aux
+write-up.toc
+write-up.out
 
-/.quarto/
-**/*.quarto_ipynb
+# --- Dados e Cache ---
+# Recomendo ignorar pastas de dados brutos muito grandes
+# /data/raw/
+.Rcache/
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Configurações de Ambiente (Segurança) ---
+.env
+.Renviron

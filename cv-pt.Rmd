@@ -1,0 +1,116 @@
+---
+format: 
+  pdf:
+    pdf-engine: xelatex
+    documentclass: scrartcl
+    papersize: a4
+    geometry:
+      - top=15mm
+      - left=15mm
+      - right=15mm
+      - bottom=15mm
+    fontsize: 10pt
+    linestretch: 1.15
+    colorlinks: true
+    linkcolor: blue
+    urlcolor: blue
+---
+
+# **Andéliton Soares**
+
+**Doutorando em Ciência Política (UnB) | Cientista de Dados | Especialista em Controladoria Pública e Economia e Finanças Públicas**
+
+📍 Brasília, DF | 📧 andeliton.soares@arsmetrica.com.br
+🔗 [Linkedin](https://linkedin.com/in/andeliton-soares-95a464337) | 🔗 [GitHub](https://github.com/andeliton) | 🌐 [www.arsmetrica.com.br](https://www.arsmetrica.com.br)
+
+---
+
+### **Resumo Profissional**
+
+Pesquisador e Cientista de Dados atuando na intersecção entre instituições políticas e engenharia de dados. Minha expertise combina o rigor da Ciência Política (Instituições, Orçamento e Legislativo) com ferramentas computacionais avançadas (R, Python, SQL) para auditoria governamental e análise estratégica. Fundador do laboratório *Ars Metrica*.
+
+---
+
+### **Formação Acadêmica**
+
+**Doutorado em Ciência Política** \hfill *Em andamento*
+Universidade de Brasília (UnB)
+
+**Mestrado em Ciência Política** \hfill *2020 – 2022*
+Universidade de Brasília (UnB)
+
+**Especialização em Controladoria Pública** \hfill *2023 – 2024*
+Gran Faculdade
+
+**Especialização em Economia e Finanças** \hfill *2023 – 2024*
+Gran Faculdade
+
+**Bacharelado em Ciência Política** \hfill *2016 – 2019*
+Universidade de Brasília (UnB)
+
+---
+
+### **Habilidades e Ferramentas**
+
+**Data Science & Estatística**
+
+* **R & RStudio (Expert):** Desenvolvimento de dashboards (Shiny), Tidyverse, ggplot2.
+
+* **Estatística Aplicada:** Modelagem preditiva, Regressão (OLS, Logit), Inferência Causal.
+
+* **Python (Intermediário):** Web Scraping (Selenium, BeautifulSoup), NLP, Automação.
+
+* **SQL:** Consultas complexas em grandes bases relacionais.
+
+**Domínio Temático e Jurídico**
+
+* **Processo Legislativo e Orçamentário:** Ciclo do SIOP/Siafi, LRF, Regimento Interno.
+
+* **Eleições e Dados do TSE:** Mineração de dados do repositório TSE, financiamento e geografia do voto.
+
+* **Auditoria Governamental:** Direito Administrativo aplicado a *Compliance* e controle externo.
+
+**Idiomas**
+
+* **Português:** Nativo
+
+* **Inglês:** Fluente
+
+* **Francês:** Proficiência Superior (DALF C2)
+
+* **Espanhol:** Proficiência Superior (DELE C2)
+
+* **Alemão:** Intermediário
+
+* **Italiano:** Intermediário
+
+---
+
+### **Experiência Internacional**
+
+**CoIntelBr (WZB Berlin & Oxford University)** \hfill *2023 – 2024*
+*Data Assistant*. Investigação sobre inteligência coletiva e confiança da sociedade civil no Brasil. Responsável pelo tratamento de bases de survey e visualização de dados.
+
+**How Elites Shape Unequal Democracies (Geneva Graduate Institute)** \hfill *2020 – 2023*
+*Pesquisador Assistente*. Projeto sobre percepção da desigualdade. Aplicação de surveys com a elite econômica e burocrática e relatórios qualitativos.
+
+**Multi-Office Incumbency Advantage** \hfill *2022 – 2024*
+*Pesquisador Assistente*. Coleta massiva e tratamento de dados históricos sobre decisões de carreira política no Brasil.
+
+---
+
+### **Publicações Selecionadas**
+
+**Presidencialismo de coalizão: conceito e aplicação**
+*Revista Brasileira de Ciência Política (2021)*. Coautoria com Lucas Couto e Bernardo Livramento.
+
+**Todos pela popularidade: Como o apoio do Presidente afeta parlamentares**
+*E-legis v.14, Edição especial (2021)*. Coautoria com Lucio Rennó.
+
+---
+
+### **Working Papers**
+
+* **Public Money as an Institutional Shield:** Campaign Finance Reform and the Electoral Survival of Scandal-Tainted Incumbents. *(Em revisão)*
+* **Preenchendo Vazios, Mitigando Incertezas:** Centralização decisória e a hipertrofia do Presidente da Câmara.
+* **Furando a Bolha?** Identidade política e efeitos de enquadramento na vacinação contra a covid-19.

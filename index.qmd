@@ -1,18 +1,92 @@
 ---
-title: "Ars Metrica"
-subtitle: "Onde a tradição humanista encontra a ciência de dados"
+pagetitle: "Ars Metrica"
+format: 
+  html:
+    page-layout: article
+    toc: false
 ---
 
-# Bem-vindo
+::: {.panel-tabset}
 
-O mundo contemporâneo não sofre de falta de informação, mas de excesso de ruído. Onde o olhar comum enxerga apenas o caos de dados dispersos, a **Ars Metrica** busca a estrutura subjacente que governa os fenômenos complexos.
+## Português 🇧🇷
 
-Entendemos que dilemas inéditos não aceitam respostas padronizadas; eles exigem imaginação. Por isso, reivindicamos a análise de dados como um ato fundamentalmente criativo. É preciso arte para formular a pergunta correta diante do vazio e rigor para construir a resposta sobre terreno firme.
+<div class="header-container">
+  <div class="custom-title">Ars Metrica</div>
+  <img src="favicon_light.png" class="brand-logo" width="110" alt="Logo Ars Metrica">
+  <div class="custom-subtitle">Entre o sinal e o ruído</div>
+</div>
 
-Nossa abordagem funde a precisão estatística com a intuição analítica, desenhando soluções originais para problemas que a força bruta computacional, sozinha, não consegue resolver. Na fronteira entre a ciência e o ofício, trabalhamos para distinguir o sinal do ruído e oferecer, diante da incerteza, a clareza possível.
+<div class="quote-intro">
+“O mundo contemporâneo não sofre de falta de informação, mas de excesso de ruído. Onde o olhar comum enxerga apenas o caos de dados dispersos, a Ars Metrica busca a estrutura subjacente que governa os fenômenos complexos.”
+</div>
 
-Por trás dos algoritmos, há uma investigação em curso. A **Ars Metrica** reflete a jornada intelectual de um pesquisador dedicado a Ciência Política. Periodicamente, publicaremos estudos sobre as engrenagens institucionais do Brasil, não como meras opiniões, mas como exercícios de lucidez. É o nosso convite para que você veja a política não como um espetáculo de ruído, mas como um sistema complexo passível de ser compreendido.
+### A Arte da Medida
 
-## Análises Recentes (versão git)
+O nome deste espaço não é acidental. Do latim, ***Ars*** evoca o ofício, a técnica e a intuição humana necessária para interpretar o mundo. ***Metrica*** traz a exatidão, o padrão e a disciplina dos números. 
 
-*Em breve, aqui estarão artigos e postagem.*
+A **Ars Metrica** nasce dessa fusão. Acreditamos que a inteligência analítica moderna não deve escolher entre a intuição humanista e a ciência de dados, mas sim integrá-las para decifrar a realidade.
+
+### Rigor e Imaginação
+
+Entendemos que dilemas inéditos não aceitam respostas padronizadas; eles exigem imaginação. Por isso, reivindicamos a análise de dados como um ato fundamentalmente criativo. É preciso arte para navegar o vazio e formular a pergunta correta, e rigor para construir a resposta sobre terreno firme.
+
+Nossa abordagem une a estatística à teoria institucional, desenhando soluções originais para problemas que a força bruta computacional, sozinha, não consegue resolver. Trabalhamos na fronteira, distinguindo o sinal do ruído para oferecer, diante da incerteza, a clareza possível.
+
+### O Investigador
+
+Por trás dos algoritmos, há uma investigação em curso. Este espaço reflete a jornada intelectual de um pesquisador dedicado a compreender as engrenagens institucionais do Brasil. Periodicamente, publicaremos estudos sobre o Executivo, o Legislativo e as Finanças Públicas, não como meras opiniões, mas como exercícios de lucidez.
+
+<div class="final-section">
+  <p>
+    Este é o nosso convite para que você veja a política não como um espetáculo de ruído, mas como um sistema complexo que muitas vezes emite sinais compreensíveis.
+  </p>
+  
+  <h3 style="text-align: center; margin-top: 30px;">Seja bem-vindo à Ars Metrica.</h3>
+  
+  <div style="font-size: 3em; margin-top: 20px; margin-bottom: 20px;">🏛️ 🤖</div>
+  
+  <img src="favicon_light.png" class="brand-logo" width="60" alt="Logo Final">
+</div>
+
+
+## English 🇺🇸
+
+<div class="header-container">
+  <div class="custom-title">Ars Metrica</div>
+  <img src="favicon_light.png" class="brand-logo" width="110" alt="Logo Ars Metrica">
+  <div class="custom-subtitle">Between signal and noise</div>
+</div>
+
+<div class="quote-intro">
+“The contemporary world suffers not from a lack of information, but from an excess of noise. Where the common eye sees only the chaos of scattered data, Ars Metrica seeks the underlying structure that governs complex phenomena.”
+</div>
+
+### The Art of Measurement
+
+The name of this space is not accidental. From Latin, ***Ars*** evokes the craft, technique, and human intuition necessary to interpret the world. ***Metrica*** brings the exactitude, pattern, and discipline of numbers.
+
+**Ars Metrica** is born from this fusion. We believe that modern analytical intelligence should not choose between humanistic intuition and data science, but rather integrate them to decipher reality.
+
+### Rigor and Imagination
+
+We understand that unprecedented dilemmas do not accept standardized answers; they require imagination. Therefore, we claim data analysis as a fundamentally creative act. It takes art to navigate the void and formulate the right question, and rigor to build the answer on firm ground.
+
+Our approach unites statistics with institutional theory, designing original solutions for problems that computational brute force alone cannot solve. We work at the frontier, distinguishing signal from noise to offer, in the face of uncertainty, the clearest possible view.
+
+### The Investigator
+
+Behind the algorithms, there is an ongoing investigation. This space reflects the intellectual journey of a researcher dedicated to understanding the institutional gears of Brazil. Periodically, we will publish studies on the Executive, the Legislative, and Public Finance—not as mere opinions, but as exercises in lucidity.
+
+<div class="final-section">
+  <p>
+    This is our invitation for you to see politics not as a spectacle of noise, but as a complex system that often emits comprehensible signals.
+  </p>
+  
+  <h3 style="text-align: center; margin-top: 30px;">Welcome to Ars Metrica.</h3>
+  
+  <div style="font-size: 3em; margin-top: 20px; margin-bottom: 20px;">🏛️ 🤖</div>
+  
+  <img src="favicon_light.png" class="brand-logo" width="60" alt="Logo Final">
+</div>
+
+:::
