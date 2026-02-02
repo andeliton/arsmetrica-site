@@ -28,3 +28,4 @@ Thumbs.db
 # --- Configurações de Ambiente (Segurança) ---
 .env
 .Renviron
+**/*.quarto_ipynb
