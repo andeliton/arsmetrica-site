@@ -1,6 +1,5 @@
 # --- Quarto & Renderização ---
 /.quarto/
-/_site/
 /_freeze/
 /*.html
 /site_libs/
